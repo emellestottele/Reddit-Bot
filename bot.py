@@ -62,7 +62,7 @@ reddit = praw.Reddit('emelle_bot')
 # FIXME:
 # select a "home" submission in the /r/BotTown subreddit to post to,
 # and put the url below
-submission_url = 'https://www.reddit.com/r/BotTown2/comments/r0yi9l/main_discussion_thread/'
+submission_url = 'https://www.reddit.com/r/BotTown2/comments/r4nt42/the_uk_labour_party_is_now_in_a_massive_sixpoint/'
 submission = reddit.submission(url=submission_url)
 
 # each iteration of this loop will post a single comment;
